@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'Days of March'
+  s.name        = 'days_of_march'
   s.version     = '0.0.0'
   s.date        = '2020-07-27'
   s.summary     = "Calculates what day of march we're on"
