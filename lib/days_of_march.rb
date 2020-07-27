@@ -5,4 +5,22 @@ def days_since_march_first
 	(Date.today - march_first).to_i
 end
 
-puts days_since_march_first
+def ordinal_indicator(number)
+  right_digit = number % 10
+  case right_digit
+  when 1
+    'st'
+  when 2
+    'nd'
+  when 3
+    'rd'
+  else
+    'th'
+  end    
+end
+
+def today
+  "Today is the #{days_since_march_first}#{ordinal_indicator(days_since_march_first)} day of March."
+end
+
+puts today
