@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'days_of_march'
+puts DaysOfMarch.today

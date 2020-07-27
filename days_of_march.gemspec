@@ -10,4 +10,5 @@ Gem::Specification.new do |s|
   s.homepage    =
     'https://rubygems.org/gems/days_of_march'
   s.license       = 'MIT'
+  s.executables << 'days_of_march'
 end
